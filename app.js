@@ -224,7 +224,7 @@ d3.queue()
              .attr("transform",`translate(${(width-2*padding)/2-padding},${height-padding/2})`)
              .append("text")
              .classed("title",true)
-             .text("Data Courtesy of the World Bank ")
+             .text("Data Courtesy of the World Bank https://data.worldbank.org/ ")
              .attr("font-size",".7em")
              .attr("font-family","Arial")
              .attr("font-weight","bold");
